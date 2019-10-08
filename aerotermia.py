@@ -266,7 +266,7 @@ newDatosInv=False
 consumoDiaAerotermia=0
 
 while True:
-
+	# Asegura que arranca en activo para reinicios inesperados
         if Iteracion1:
                 printf("Estado Aerotermia: ", "Activa por reinicio")
                 Iteracion1=False
